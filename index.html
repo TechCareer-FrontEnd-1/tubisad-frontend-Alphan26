@@ -1,0 +1,949 @@
+<!doctype html>
+<html lang="tr">
+<!-- title-->
+<title>My page</title>
+<!-- favicon -->
+<link rel="icon" href="picture/favicon.jpg" />
+
+<!-- Turkce karakter -->
+<meta charset="utf-8" />
+
+<!-- responsive design -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- seo -->
+<meta name="keywords" content="html5,css3,js,jquery,bootstrap,react,es5,es6" />
+<meta name="description" content="one pages, html5,css3,js,jquery,bootstrap,seo" />
+<meta name="author" content="Hamit Mızrak" />
+
+<!-- Google Fonts-->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Quicksand:wght@300&display=swap"
+    rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+
+<!-- Font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+<!-- Bootstrap CSS v5.0.2 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+
+<!-- jquery UI -->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+ <!-- Bootstrap JavaScript Libraries -->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <!-- External JS -->
+
+<!-- External CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- animate CSS-->
+<link rel="stylesheet" href="css/animate.min.css">
+<!-- wow js-->
+<script src="js/wow.min.js"></script>
+<script> new WOW().init() </script>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+    <!-- Navbar start -->
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <!-- Container wrapper -->
+        <div class="container" id="navbar-example">
+            <!-- Navbar brand -->
+            <div id="logo_div">
+                <a class="navbar-brand me-2" href="#">
+                    <img src="//d9hhrg4mnvzow.cloudfront.net/www.techcareer.net/mainpage/en/57e21290-techcareer-logo-web_104600g000000000000028.png"
+                        height="16" alt="MDB Logo" loading="lazy" style="margin-top: -1px;" />
+                </a>
+            </div>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_id"
+                aria-controls="navbar_id" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbar_id">
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="#ability"> <i class="fa-brands fa-battle-net"></i>Ability</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section_3"> <i class="fa-solid fa-rectangle-ad"></i>Who am I</a>
+                    </li>
+
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section_6"> <i class="fa-solid fa-address-card"></i>Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section_7"> <i class="fa-solid fa-people-group"></i>Projects</a>
+                    </li>
+
+                   
+
+
+
+
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li> -->
+                </ul>
+                <!-- Left links -->
+
+                <div class="d-flex align-items-center" id="right_navbar">
+                    <button data-bs-toggle="modal" data-bs-target="#modelId" type="button"
+                        class="btn btn-link px-3 me-2">
+                        <i class="fa-solid fa-user-large" style="color:#ffca04"></i>
+                    </button>
+                    <button data-bs-toggle="modal" data-bs-target="#registerId" type="button"
+                        class="btn btn-primary btn-sm me-3">
+                        Register
+                    </button>
+                    <a class="btn btn-dark px-3" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar ends -->
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal : Login -->
+    <!-- modal-login start -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Login</h6>
+                    <button type="button" class="btn-close btn-sm" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1"> <label class="form-label" for="user_email">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </label></div>
+                                    <div class="col">
+                                        <input type="text" id="user_email" name="user_email" placeholder="email adresiniz ..." class="form-control" />
+                                        <span id="validation_email" class="text-danger" style="font-size:.8rem ;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1"> <label class="form-label" for="user_password">
+                                            <i class="fa-solid fa-key"></i>
+                                        </label></div>
+                                    <div class="col">
+                                        <input type="text" id="user_password" name="user_password" placeholder="şifreniz ..." class="form-control" />
+                                        <span id="validation_password" class="text-danger" style="font-size:.8rem ;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-outline mt-2 mb-2">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1"> <label class="form-label" for="form2Example1">
+                                        </label></div>
+                                    <div class="col">
+                                        <button type="reset" class="btn btn-outline-danger">Temizle</button>
+                                        <button id="btnSubmit" type="submit" class="btn btn-outline-primary">Giriş
+                                            Yap</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </form>
+                </div>
+                </div>
+                </div>
+    </div>
+    <!-- modal-login ends -->
+
+
+    <!-- Modal Register -->
+    <div class="modal fade" id="registerId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1"> <label class="form-label" for="user_email">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </label></div>
+                                    <div class="col">
+                                        <input type="text" id="reg_email" name="user_email" placeholder="email adresiniz ..." class="form-control" />
+                                        <span id="reg_validation_email" class="text-danger" style="font-size:.8rem ;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                            <div class="container wow animated bounceIn>
+                                <div class="row">
+                                    <div class="col-1"> <label class="form-label" for="user_password">
+                                            <i class="fa-solid fa-key"></i>
+                                        </label></div>
+                                    <div class="col">
+                                        <input type="text" id="reg_password" name="user_password" placeholder="şifreniz ..." class="form-control" />
+                                        <span id="reg_validation_password" class="text-danger" style="font-size:.8rem ;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button id="registerSubmit" type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                </div>
+                </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- header-start -->
+    <header id="header">
+        <div class="jumbotron text-white">
+            <div class="container" style="opacity:.9">
+                <div class="p-5 text-center">
+                    <h1 class="text-uppercase display-3 shadow wow bounceIn animated" data-wow-delay=".40s">Alphan
+                        Elmas</h1>
+                    <h4 class="wow bounceIn animated" data-wow-delay=".50s"> My Portfolio</h4>
+                    <a class="btn btn-outline-warning shadow wow bounceIn animated " data-wow-delay=".50s" href="https://github.com/Alphan26">
+                        Follow me On Github </a>
+                    <a class="btn btn-outline-danger shadow wow bounceIn animated" data-wow-delay=".50s" href="https://www.linkedin.com/in/alphan-elmas-ae26/">
+                        Follow me On Linkedin </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- main-start -->
+    <main>
+     
+
+
+
+        <!-- section-10 ends : Icon -->
+        <section id="section10">
+            <div class="icon_message">
+                <h2 class="text-center text-uppercase mb-5">My Projects</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-3 col-xl-4 text-center wow rotateInDownLeft animated"
+                            data-wow-delay=".40">
+                            <i class="fa-brands fa-cc-amazon-pay text-center"></i>
+                            <h4>E-Voting</h4>
+                            <p>It's an online voting system designed to use vote easily for determining
+                                anything. It's written on Django.
+                            </p>
+                            <div class="col-12 text-center"><button class="btn btn-outline-primary">More ..</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 col-xl-4 text-center wow rotateInUpLeft animated"
+                            data-wow-delay=".50">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <h4>Udemy Clone</h4>
+                            <p>This was our graduation project that aims people to learn new technologies. It is written on Node.js
+                                for backend and html css javascript for frontend.
+                                
+                            </p>
+                            <div class="col-12 text-center"><button class="btn btn-outline-primary">More ..</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 col-xl-4 text-center wow rotateInDownRight animated"
+                            data-wow-delay=".60">
+                            <i class="fa-solid fa-cubes"></i>
+                            <h4>Data Table</h4>
+                            <p>This is a system that takes data from a given excel file and print
+                                them out in a datatable. It's written in C#.
+                            </p>
+                            <div class="col-12 text-center"><button class="btn btn-outline-primary">More ..</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-10 ends : Icon -->
+
+        <!-- section-1 start : ability -->
+        <section id="ability">
+            <div class="container" style=" margin-bottom:3rem;">
+                <p class="text-uppercase display-6 text-center text-light mt-4">My Abılıtıes</p>
+                <div class="row">
+                    
+                    <div class=" col-md-12 col-lg-4 text-white text-center wow rotateInDownLeft animated d-flex flex-row justify-content-between ">
+                        <div >
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div>
+                            <span class="text-center " style="font-size: 2rem;">HTML</span>
+                        <p class="">I am using HTML for 2 years and did some projects using this technology.</p>
+                        </div>
+                       
+                        
+                    </div>
+                    <div class=" col-md-12 col-lg-4  text-white text-center wow rotateInDownLeft animated d-flex flex-row justify-content-between">
+                        <div >
+                            <i class="fa-brands fa-css3 mt-3 text-primary"></i>
+                        </div>
+                        <div>
+                            <span class="text-center " style="font-size: 2rem;".>CSS</span>
+ 
+                        <p class="text-center">I am using CSS for 2 years and did some projects using this technology.</p>
+                        </div>
+                        
+                    </div>
+                    <div class=" col-md-12 col-lg-4  text-white text-center wow rotateInDownLeft animated d-flex flex-row justify-content-between">
+                        <div >
+                            <i class="fa-brands fa-js text-success"></i>
+                        </div>
+                        <div>
+                            <span class="text-center text-uppercase" style="font-size: 2rem;">JavaScript</span>
+                        <p class="text-center ">I am using JavaScript for 2 years and did some projects using this technology.</p>
+                        </div>
+                        
+                    </div>
+                    <div class=" col-md-12 col-lg-4  text-white text-center wow rotateInDownLeft animated d-flex flex-row justify-content-between mt-5">
+                        <div >
+                            <i class="fa-brands fa-python text-info"></i>
+                        </div>
+                        <div>
+                            <span class="text-center text-uppercase mt-3" style="font-size: 2rem;">Python</span>
+                        <p class="text-center">I am using Python for 2 years and did some projects using this technology.</p>
+                        </div>
+                        
+                    </div>
+                    <div class=" col-md-12 col-lg-4  text-white text-center wow rotateInDownLeft animated d-flex flex-row justify-content-between mt-5">
+                        <div >
+                            <i class="fa-brands fa-js text-warning"></i>
+                        </div>
+                        <div>
+                            <span class="text-center text-uppercase" style="font-size: 2rem;">Django</span>
+                        <p class="text-center">I am using Django for 2 years and did some projects using this technology.</p>
+                        </div>
+                        
+                    </div>
+                    <div class=" col-md-12 col-lg-4  text-white text-center wow rotateInDownLeft animated d-flex flex-row justify-content-between mt-5">
+                        <div >
+                            <i class="fa-brands fa-java text-secondary"></i>
+                        </div>
+                        <div>
+                            <span class="text-center text-uppercase" style="font-size: 2rem;">Java</span>
+                        <p class="text-center">I am using Java for 3 years and did some projects using this technology.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="container">
+                        <h3 class="text-center display-6 text-white mt-5 ">How Much I Know All Of Them</h3>
+                        <div class="progressBar d-flex flex-column justify-content-center align-items-center pt-5">
+                            <div class="progress mb-4 mt-3 w-75">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%; " aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80% HTML</div>
+                              </div>
+                            <div class="progress mb-4 w-75">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70% CSS</div>
+                              </div>
+                            <div class="progress mb-4  w-75">
+                                <div class="progress-bar bg-success" role="progressbar" style="width:50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50% Javascript</div>
+                              </div>
+                            <div class="progress mb-4 w-75">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70% Python</div>
+                              </div>
+                            <div class="progress mb-4 w-75">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40% Django</div>
+                              </div>
+                            <div class="progress mb-4 w-75">
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50% Java</div>
+                              </div>
+                        </div>
+                        
+                    </div>
+                   
+                    
+                </div>
+            </div>
+        </section>
+        <!-- section-1 end -->
+
+        <!-- parallax scrolling start -->
+        <section class="parallax_class">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center ">Why You Should Choose Me</h2>
+                    <p class="text-light">Because I am aware of my responsibilities and get the job done when it's asked. I have
+                        good relationships with people and I like to listen them. When these things combine with
+                        my skills I become the ideal employee for your company.
+                    </p>
+                    <div class="col-12 text-center"><button class="btn btn-outline-primary">More ...</button></div>
+                </div>
+            </div>
+
+        </section>
+        <!-- parallax scrolling start -->
+
+        <!-- section-3 start : NewsPaper -->
+        <section id="section_3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-uppercase display-6 text-center wow rotateInDownLeft animated mb-4" data-wow-delay=".40">
+                        Who am I</h2>
+                    <p id="newspaper_id" class=" wow rotateInDownRight animated" data-wow-delay=".40">
+                        I am 22 year old, recently graduated student from Eskişehir.I studied Software Engineering program between 2018 to 2022 in Işık University which is in Istanbul. Throughout my school career I mostly worked 
+                        on Web Development area and its technologies such as HTML,CSS, Javascript and a web framework Django, as well as learned some common languages which
+                        are Java and Python. I had some experience on C# though. I have also small experience in Android apps and Data Mining areas.
+                    
+                    </p>
+                    <p id="newspaper_id" class=" wow rotateInDownRight animated" data-wow-delay=".40"> 
+                        I think my biggest advantage is the team work because i am involved in team sports since I was 11 and I played for 5 different teams in basketball 
+                        also we did some group projects in our department. I also can implement what I learn quickly.
+                    </p>
+                    <div class="col-md-5"></div>
+                    <div class="col-md-4">
+                        <a href="" class="btn btn-outline-warning text-center btn-lg wow rotateInDownLeft animated"
+                            data-wow-delay=".80">Read me ..</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section_4">
+            <div class="container">
+                <div class="row mt-5 py-5">
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <i class="mb-3 fa-solid fa-arrow-up-1-9 text-warning" ></i>
+                        <p class="num font-weight-bold text-center text-white display-6 " data-val="10">00</p>
+                        <p class="text-center">Amount of projects I did</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <i class="mb-3 fa-solid fa-clock text-warning" ></i>
+                        <p class="num font-weight-bold text-center text-white display-6 " data-val="200">000</p>
+                        <p class="text-center">Estimated Work Hour</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <i class="mb-3 fa-solid fa-calendar text-warning" ></i>
+                        <p class="num font-weight-bold text-center text-white display-6 " data-val="4">0</p>
+                        <p class="text-center">Years Spent With Software</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <i class="mb-3  fa-solid fa-arrow-up-1-9 text-warning" ></i>
+                        <p class="num font-weight-bold text-center text-white display-6 " data-val="10">00</p>
+                        <p class="text-center">Amount of Software Techs I Know</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="section5" class="border border-1 border-primary">
+                    <h6 class=" text-center text-uppercase display-6 mb-5">What Does Other People Thınk</h6>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active ">
+                            <img class="d-block w-50 h-100 text-center" style="border-radius: 50%; position: relative; top: 25%; left: 25%;" src="picture/baskaları.PNG" alt="First slide">
+                            <p class=" mt-3 text-center">Yasin Köroğlu</p>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis nisi quibusdam eligendi quod autem, 
+                                sint fuga hic reiciendis mollitia corporis debitis. 
+                                Nemo sed doloremque qui id illo praesentium cum expedita odit beatae aliquam, eos, suscipit, labore
+                                 dolorum mollitia incidunt.</p>
+                          </div>
+                          <div class="carousel-item  ">
+                            <img class="d-block w-50 h-25" style="border-radius: 50%; position: relative; top: 25%; left: 25%;" src="picture/coffee-g4d61840d9_1920.jpg" alt="Second slide">
+                            <p class=" mt-3 text-center">Yasin Köroğlu</p>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis nisi quibusdam eligendi quod autem, 
+                                sint fuga hic reiciendis mollitia corporis debitis. 
+                                Nemo sed doloremque qui id illo praesentium cum expedita odit beatae aliquam, eos, suscipit, labore
+                                 dolorum mollitia incidunt.</p>
+                          </div>
+                          <div class="carousel-item ">
+                            <img class="d-block w-50 h-25" style="border-radius: 50%; position: relative; top: 25%; left: 25%;" src="picture/resim1.jpg" alt="Third slide">
+                            <p class=" mt-3 text-center">Yasin Köroğlu</p>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis nisi quibusdam eligendi quod autem, 
+                                sint fuga hic reiciendis mollitia corporis debitis. 
+                                Nemo sed doloremque qui id illo praesentium cum expedita odit beatae aliquam, eos, suscipit, labore
+                                 dolorum mollitia incidunt.</p>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next " href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+         <!--             <div class="container">
+                            <div class="row">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <div class="col-lg-3 py-3 col-md-12">
+                                            <img  class="d-block" style="border-radius: 50%;" src="picture/header.jpg" width="100%" height="100%" alt="Resim Bulunamadı">
+                                            <p class="text-center text-primary">Yasin Köroğlu</p>
+                                        </div>
+                                        <div class="col-lg-9 px-3 py-3 col-md-12">
+                                            <p class="text-center mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                                Iste, eius repellat ipsum obcaecati error adipisci! Iure quos nisi 
+                                                quae id cumque? Repudiandae iure dignissimos suscipit voluptate deserunt illum nihil labore, dolores nesciunt porro optio atque beatae commodi 
+                                                totam sit voluptas nisi unde doloribus asperiores eos.</p>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="carousel-item d-flex">
+                                        <div class="">
+                                            <img  class="d-block w-100 h-100" style="border-radius: 50%;" src="picture/eiffel-tower.svg"  alt="Resim Bulunamadı">
+                                            <p class="text-center text-primary">Yasin Köroğlu</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="text-center mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                                Iste, eius repellat ipsum obcaecati error adipisci! Iure quos nisi 
+                                                quae id cumque? Repudiandae iure dignissimos suscipit voluptate deserunt illum nihil labore, dolores nesciunt porro optio atque beatae commodi 
+                                                totam sit voluptas nisi unde doloribus asperiores eos.</p>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="carousel-item d-flex">
+                                        <div class="">
+                                            <img  class="d-block w-100 h-100" style="border-radius: 50%;" src="picture/office-gc2455a673_1920.jpg"  alt="Resim Bulunamadı">
+                                            <p class="text-center text-primary">Yasin Köroğlu</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="text-center mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                                Iste, eius repellat ipsum obcaecati error adipisci! Iure quos nisi 
+                                                quae id cumque? Repudiandae iure dignissimos suscipit voluptate deserunt illum nihil labore, dolores nesciunt porro optio atque beatae commodi 
+                                                totam sit voluptas nisi unde doloribus asperiores eos.</p>
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                  </div>
+                                -->  
+                            </div>
+                        </div>
+      
+        </section>
+        <!-- section-3 end -->
+<!--
+        <!-- section-2 start
+        <section id="section_2">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-uppercase display-6 text-center wow rotateInDownLeft animated mb-4" data-wow-delay=".40">
+                        Blog</h2>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="picture/transparent.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit.Doloremque cupiditate,
+                                    nemo itaque, aut reprehenderit repellendus quasi nesciunt velit molestiae possimus
+                                    quo. Dolores
+                                    perferendis a omnis dignissimos dolore praesentium doloremque repellat?
+                                    Tempora quasi similique corporis, accusamus officia voluptatem incidunt consequatur
+                                    enim ab
+                                    facere ea, vitae sapiente molestias ipsam totam aut consequuntur esse optio! Amet
+                                    sapiente
+                                    minima aspernatur, eveniet ex delectus nisi.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="picture/office-gc2455a673_1920.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit.Doloremque cupiditate,
+                                    nemo itaque, aut reprehenderit repellendus quasi nesciunt velit molestiae possimus
+                                    quo. Dolores
+                                    perferendis a omnis dignissimos dolore praesentium doloremque repellat?
+                                    Tempora quasi similique corporis, accusamus officia voluptatem incidunt consequatur
+                                    enim ab
+                                    facere ea, vitae sapiente molestias ipsam totam aut consequuntur esse optio! Amet
+                                    sapiente
+                                    minima aspernatur, eveniet ex delectus </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="picture/meeting-g9a3aff941_1920.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit.Doloremque cupiditate,
+                                    nemo itaque, aut reprehenderit repellendus quasi nesciunt velit molestiae possimus
+                                    quo. Dolores
+                                    perferendis a omnis dignissimos dolore praesentium doloremque repellat?
+                                    Tempora quasi similique corporis, accusamus officia voluptatem incidunt consequatur
+                                    enim ab
+                                    facere ea, vitae sapiente molestias ipsam totam aut consequuntur esse optio! Amet
+                                    sapiente
+                                    minima aspernatur, eveniet ex delectus </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="picture/resim1.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit.Doloremque cupiditate,
+                                    nemo itaque, aut reprehenderit repellendus quasi nesciunt velit molestiae possimus
+                                    quo. Dolores
+                                    perferendis a omnis dignissimos dolore praesentium doloremque repellat?
+                                    Tempora quasi similique corporis, accusamus officia voluptatem incidunt consequatur
+                                    enim ab
+                                    facere ea, vitae sapiente molestias ipsam totam aut consequuntur esse optio! Amet
+                                    sapiente
+                                    minima aspernatur, eveniet ex delectus </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="picture/resim1.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit.Doloremque cupiditate,
+                                    nemo itaque, aut reprehenderit repellendus quasi nesciunt velit molestiae possimus
+                                    quo. Dolores
+                                    perferendis a omnis dignissimos dolore praesentium doloremque repellat?
+                                    Tempora quasi similique corporis, accusamus officia voluptatem incidunt consequatur
+                                    enim ab
+                                    facere ea, vitae sapiente molestias ipsam totam aut consequuntur esse optio! Amet
+                                    sapiente
+                                    minima aspernatur, eveniet ex delectus </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="picture/office-gc2455a673_1920.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit.Doloremque cupiditate,
+                                    nemo itaque, aut reprehenderit repellendus quasi nesciunt velit molestiae possimus
+                                    quo. Dolores
+                                    perferendis a omnis dignissimos dolore praesentium doloremque repellat?
+                                    Tempora quasi similique corporis, accusamus officia voluptatem incidunt consequatur
+                                    enim ab
+                                    facere ea, vitae sapiente molestias ipsam totam aut consequuntur esse optio! Amet
+                                    sapiente
+                                    minima aspernatur, eveniet ex delectus </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="picture/meeting-g9a3aff941_1920.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit.Doloremque cupiditate,
+                                    nemo itaque, aut reprehenderit repellendus quasi nesciunt velit molestiae possimus
+                                    quo. Dolores
+                                    perferendis a omnis dignissimos dolore praesentium doloremque repellat?
+                                    Tempora quasi similique corporis, accusamus officia voluptatem incidunt consequatur
+                                    enim ab
+                                    facere ea, vitae sapiente molestias ipsam totam aut consequuntur esse optio! Amet
+                                    sapiente
+                                    minima aspernatur, eveniet ex delectus </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="picture/transparent.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit.Doloremque cupiditate,
+                                    nemo
+                                    itaque, aut reprehenderit repellendus quasi nesciunt velit molestiae possimus quo.
+                                    Dolores perferendis a
+                                    omnis dignissimos dolore praesentium doloremque repellat?
+                                    Tempora quasi similique corporis, accusamus officia voluptatem incidunt consequatur
+                                    enim ab facere ea,
+                                    vitae sapiente molestias ipsam totam aut consequuntur esse optio! Amet sapiente
+                                    minima aspernatur,
+                                    eveniet ex delectus </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        section-2 end -->
+    
+
+        <!-- section-6 start -->
+        <!-- contact -->
+        <section id="section_6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center text-uppercase text-light mb-3">Contact Me</h2>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <form action="#!" id="contact_form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="adınız" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="soyadınız" class="form-control">
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="email" placeholder="deneme@xyz.com" class="form-control">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="number" placeholder="numaranız" class="form-control">
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <textarea name="message" rows="6" class="form-control" id="message"
+                                            placeholder="Your message..." required=""></textarea>
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <button type="reset" class="btn btn-danger">Clear </button>
+                                        <button type="submit" class="btn btn-primary">Send Message </button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-12 col-lg-6 ">
+                        <div id="map">
+                            <iframe
+                                src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                width="100%" height="420px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-6 start -->
+
+        <!-- section-7 start -->
+        <section id="section_7">
+            <div class="container wow bounceIn animated" data-wow-delay=".80">
+                <div class="row">
+                    <h4 class="text-center display-6 mb-5" data-wow-delay=1>More Details On My Projects</h4>
+                    <div class="col-md-12 col-lg-6 mb-3">
+                       
+                        <h4 class="text-center">Udemy Clone</h4>
+                        <p> 
+                            In this project, we aimed to do an online learning system in which students can learn different
+                        technologies in a cheap and sustainable way. I did this project with my teammate Burak. We have used Node.js fr the backend part and
+                    and Html, CSS , Javascript for the frontend part. In this web application users who have registered can buy courses, watch videos, ask questions, 
+                comment on the videos and report the video if the content has inappropriate things. In the system teachers can upload courses and reply student's questions. Also, teachers
+            can get notifications whenever new question or comment comes in. There is also anohter actor Admin in which s/he can ban students, teachers or courses due to incoming
+        reports.</a>
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        
+                        <a href="https://github.com/senturkkburak/e-Learn">
+                            <img class="h-100 w-100" style="max-width: 35rem;" src="picture/udemyanasayfa.PNG"></a>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-12 col-lg-6 mb-3">
+                        
+                        <a href="https://github.com/senturkkburak/e-Learn">
+                            <img class="h-100 w-100" style="max-width: 35rem;" src="picture/votes.PNG"></a>
+                    </div>
+                    <div class="col-md-12 col-lg-6  ">
+                       
+                        <h4 class="text-center">E-Voting</h4>
+                        <p> 
+                            In this project, we aimed to do an online voting system in which people can vote for different topics 
+                        and decide what to do. We have used Django which is a framework using Python. People can register and vote
+                    , as well as they can see the statistics of the voting after the voting is done. There is also another actor in the 
+                system which is premium user. Their advantage is, they can see statistics in more details.</a>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- section-7 start -->
+
+    </main>
+    <!-- main-end -->
+
+
+    <!-- footer-start -->
+    <footer class="text-center text-lg-start">
+        <!-- footer-tab-1 start -->
+        <section id="section_footer_1" class="p-4 border-top d-flex justify-content-center justify-content-lg-between">
+            <div class="me-5 d-none d-lg-block">
+                <span>My Portfolio</span>
+            </div>
+
+            <!-- social -->
+            <div id="social_id">
+                <a href="https://www.linkedin.com/in/alphan-elmas-ae26/" class="me-1 btn btn-outline-primary text-reset btn-floating">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/alphan.elmas/" class="me-1 btn btn-outline-warning text-reset btn-floating">
+                    <i class="fa-brands fa-instagram-square"></i>
+                </a>
+                
+                </a> <a href="https://github.com/Alphan26" class="me-1 btn btn-outline-danger text-reset btn-floating">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </section>
+        <!-- footer-tab-1 end -->
+
+        <!-- footer-tab-2 start -->
+        <section id="section_footer_2">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-4">
+                    <!-- medium device:4 
+                    large device :3
+                    xlarge device :4 -->
+
+                    <!-- left-1 -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-5 shadow">
+                        <h6 class="text-uppercase mb-4">
+                            <i style="font-size:2rem; margin-right:.3rem;" class="fa-brands fa-avianex"></i> Company
+                            INC.
+                        </h6>
+                        <p style="text-align:left!important" class="line_clamp3">
+                            E-Ticaret Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veniam rerum ab
+                            explicabo temporibus tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                            sit molestiae et veritatis voluptates iure.
+                        </p>
+                    </div>
+
+                    <!-- left-2 -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-5 shadow">
+                        <h6 class="text-uppercase mb-3">FrontEnd</h6>
+                        <p><a href="" class="text-reset">Html5</a></p>
+                        <p><a href="" class="text-reset">CSS3</a></p>
+                        <p><a href="" class="text-reset">JS</a></p>
+                    </div>
+
+                    <!-- left-3 -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-5 shadow">
+                        <h6 class="text-uppercase mb-3">Backend</h6>
+                        <p><a href="" class="text-reset">Node JS</a></p>
+                        <p><a href="" class="text-reset">Java</a></p>
+                        <p><a href="" class="text-reset">C#</a></p>
+                    </div>
+
+                    <!-- left-4 -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-5 shadow" id="address_id">
+                        <h6 class="text-uppercase mb-3">Contact</h6>
+                        <p><i class="fa-solid fa-earth-africa"></i> Turkey</p>
+                        <p><i class="fa-solid fa-envelope-open-text"></i>
+                            <a href="mailto:alphanhilal@gmail.com">alphanhilal@gmail.com</a>
+                        </p>
+                        <p><i class="fa-solid fa-mobile-retro"></i>
+                            <a href="tel:90111223344">90 533 697 78 68</a>
+                        </p>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button onclick="date()" class="btn btn-outline-danger">Date</button>
+                            <span id="date_id"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer-tab-2 end -->
+
+        <!-- CopyRight -->
+        <div class="text-center p-5 bg-dark" id="copy_right">
+            &copy; ©2022 Copyright;
+            <a href="" >Alphan Elmas</a>
+        </div>
+    </footer>
+    <!-- footer-end -->
+
+    <button id="back_top" onclick="topFunction()" class="btn btn-warning btn-sm"><i
+            class="fa-solid fa-arrow-up-long text-light me-2"></i>TOP </button>
+
+   
+    
+    <script src="template.js"></script>
+</body>
+
+</html>
